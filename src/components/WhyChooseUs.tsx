@@ -3,23 +3,23 @@ import { Shield, Target, Clock, Heart } from "lucide-react";
 const reasons = [
   {
     icon: Shield,
-    title: "Proven Track Record",
-    description: "Decades of successful case outcomes and satisfied clients across diverse practice areas."
+    title: "Atuação Estratégica",
+    description: "Defesa técnica e estratégica com experiência em casos complexos e de repercussão nacional."
   },
   {
     icon: Target,
-    title: "Personalized Approach",
-    description: "Every case receives individual attention with strategies tailored to your specific situation."
+    title: "Abordagem Personalizada",
+    description: "Cada caso recebe atenção individual com estratégias sob medida para sua situação específica."
   },
   {
     icon: Clock,
-    title: "Responsive Service",
-    description: "We prioritize communication and keep you informed every step of the way."
+    title: "Sigilo Profissional",
+    description: "Atuação pautada pelo sigilo absoluto, ética profissional e comprometimento com seus direitos."
   },
   {
     icon: Heart,
-    title: "Client-Centered",
-    description: "Your goals and concerns are at the heart of everything we do."
+    title: "Dedicação Total",
+    description: "Compromisso com a proteção das suas garantias fundamentais em todas as fases do processo."
   }
 ];
 
@@ -29,10 +29,10 @@ const WhyChooseUs = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Why Choose Our Firm
+            Por Que Escolher Nosso Escritório
           </h2>
           <p className="text-lg text-primary-foreground/80">
-            We combine legal excellence with a commitment to personalized service that sets us apart.
+            Combinamos excelência jurídica com comprometimento e atendimento personalizado que nos distingue.
           </p>
         </div>
 

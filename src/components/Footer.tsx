@@ -8,49 +8,49 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Scale className="h-6 w-6 text-accent" />
-              <span className="text-lg font-semibold">Law Firm</span>
+              <span className="text-lg font-semibold">Andreza Amador</span>
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
-              Providing exceptional legal services with integrity, expertise, and dedication to our clients' success.
+              Serviços jurídicos excepcionais com integridade, expertise e dedicação ao sucesso dos nossos clientes.
             </p>
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4">Links Rápidos</h3>
             <ul className="space-y-2 text-sm text-primary-foreground/70">
               <li>
-                <a href="#about" className="hover:text-accent transition-colors">About Us</a>
+                <a href="#about" className="hover:text-accent transition-colors">Sobre</a>
               </li>
               <li>
-                <a href="#practice-areas" className="hover:text-accent transition-colors">Practice Areas</a>
+                <a href="#practice-areas" className="hover:text-accent transition-colors">Serviços</a>
               </li>
               <li>
-                <a href="#why-choose-us" className="hover:text-accent transition-colors">Why Choose Us</a>
+                <a href="#why-choose-us" className="hover:text-accent transition-colors">Diferenciais</a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-accent transition-colors">Contact</a>
+                <a href="#contact" className="hover:text-accent transition-colors">Contato</a>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4">Legal</h3>
+            <h3 className="text-lg font-semibold mb-4">Informações</h3>
             <ul className="space-y-2 text-sm text-primary-foreground/70">
               <li>
-                <a href="#" className="hover:text-accent transition-colors">Privacy Policy</a>
+                <a href="#" className="hover:text-accent transition-colors">OAB/SP 410.139</a>
               </li>
               <li>
-                <a href="#" className="hover:text-accent transition-colors">Terms of Service</a>
+                <a href="#" className="hover:text-accent transition-colors">Política de Privacidade</a>
               </li>
               <li>
-                <a href="#" className="hover:text-accent transition-colors">Attorney Advertising</a>
+                <a href="#" className="hover:text-accent transition-colors">Termos de Serviço</a>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-primary-foreground/10 mt-8 pt-8 text-center text-sm text-primary-foreground/60">
-          <p>&copy; {new Date().getFullYear()} Law Firm. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Andreza Carolina Dias Amador - OAB/SP 410.139. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

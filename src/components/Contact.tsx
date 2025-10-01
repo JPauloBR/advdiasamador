@@ -17,8 +17,8 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     toast({
-      title: "Message Received",
-      description: "Thank you for contacting us. We'll get back to you within 24 hours.",
+      title: "Mensagem Recebida",
+      description: "Obrigada por entrar em contato. Retornaremos em até 24 horas.",
     });
     setFormData({ name: "", email: "", phone: "", message: "" });
   };
@@ -35,10 +35,10 @@ const Contact = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Contact Us
+            Entre em Contato
           </h2>
           <p className="text-lg text-muted-foreground">
-            Schedule your free consultation today. We're here to help you navigate your legal matters with confidence.
+            Agende sua consulta gratuita hoje. Estamos aqui para ajudá-lo a proteger seus direitos com confiança.
           </p>
         </div>
 
@@ -47,7 +47,7 @@ const Contact = () => {
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium mb-2">
-                  Full Name
+                  Nome Completo
                 </label>
                 <Input
                   id="name"
@@ -55,13 +55,13 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  placeholder="John Doe"
+                  placeholder="Seu nome"
                 />
               </div>
 
               <div>
                 <label htmlFor="email" className="block text-sm font-medium mb-2">
-                  Email Address
+                  E-mail
                 </label>
                 <Input
                   id="email"
@@ -70,13 +70,13 @@ const Contact = () => {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  placeholder="john@example.com"
+                  placeholder="seu@email.com"
                 />
               </div>
 
               <div>
                 <label htmlFor="phone" className="block text-sm font-medium mb-2">
-                  Phone Number
+                  Telefone
                 </label>
                 <Input
                   id="phone"
@@ -84,13 +84,13 @@ const Contact = () => {
                   type="tel"
                   value={formData.phone}
                   onChange={handleChange}
-                  placeholder="(555) 123-4567"
+                  placeholder="(19) 99999-9999"
                 />
               </div>
 
               <div>
                 <label htmlFor="message" className="block text-sm font-medium mb-2">
-                  How Can We Help?
+                  Como Podemos Ajudar?
                 </label>
                 <Textarea
                   id="message"
@@ -98,13 +98,13 @@ const Contact = () => {
                   value={formData.message}
                   onChange={handleChange}
                   required
-                  placeholder="Tell us about your legal needs..."
+                  placeholder="Conte-nos sobre seu caso..."
                   rows={5}
                 />
               </div>
 
               <Button type="submit" size="lg" className="w-full">
-                Request Consultation
+                Solicitar Consulta
               </Button>
             </form>
           </div>
@@ -116,9 +116,9 @@ const Contact = () => {
                   <Phone className="h-6 w-6 text-accent" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-primary mb-2">Phone</h3>
-                  <p className="text-muted-foreground">(555) 123-4567</p>
-                  <p className="text-sm text-muted-foreground mt-1">Mon-Fri 9am-6pm</p>
+                  <h3 className="text-lg font-semibold text-primary mb-2">Telefone</h3>
+                  <p className="text-muted-foreground">(19) 99999-9999</p>
+                  <p className="text-sm text-muted-foreground mt-1">Seg-Sex 9h-18h</p>
                 </div>
               </div>
             </div>
@@ -129,9 +129,9 @@ const Contact = () => {
                   <Mail className="h-6 w-6 text-accent" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-primary mb-2">Email</h3>
-                  <p className="text-muted-foreground">contact@lawfirm.com</p>
-                  <p className="text-sm text-muted-foreground mt-1">24/7 email support</p>
+                  <h3 className="text-lg font-semibold text-primary mb-2">E-mail</h3>
+                  <p className="text-muted-foreground">contato@diasamador.adv.br</p>
+                  <p className="text-sm text-muted-foreground mt-1">Suporte por e-mail 24/7</p>
                 </div>
               </div>
             </div>
@@ -142,10 +142,9 @@ const Contact = () => {
                   <MapPin className="h-6 w-6 text-accent" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-primary mb-2">Office</h3>
-                  <p className="text-muted-foreground">123 Legal Plaza</p>
-                  <p className="text-muted-foreground">Suite 456</p>
-                  <p className="text-muted-foreground">City, State 12345</p>
+                  <h3 className="text-lg font-semibold text-primary mb-2">Localização</h3>
+                  <p className="text-muted-foreground">São Paulo - SP</p>
+                  <p className="text-muted-foreground">Atendimento em todo Brasil</p>
                 </div>
               </div>
             </div>

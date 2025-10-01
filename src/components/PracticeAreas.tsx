@@ -2,34 +2,34 @@ import { Building2, Users2, FileText, Home, Briefcase, Scale } from "lucide-reac
 
 const practiceAreas = [
   {
-    icon: Building2,
-    title: "Corporate Law",
-    description: "Comprehensive business legal services including contracts, mergers, and compliance."
-  },
-  {
-    icon: Users2,
-    title: "Family Law",
-    description: "Compassionate representation in divorce, custody, and family matters."
+    icon: Scale,
+    title: "Tribunal do Júri",
+    description: "Atuação estratégica no Tribunal do Júri, oferecendo defesa técnica de acusados em crimes dolosos contra a vida e também representação como assistente de acusação."
   },
   {
     icon: FileText,
-    title: "Estate Planning",
-    description: "Protect your legacy with wills, trusts, and estate administration."
+    title: "Assistência em Ações Penais",
+    description: "Atuação completa em ações penais, com acompanhamento em delegacias, flagrantes, audiências de custódia e defesa técnica em todas as fases do processo criminal."
   },
   {
-    icon: Home,
-    title: "Real Estate",
-    description: "Expert guidance in property transactions, disputes, and development."
+    icon: Building2,
+    title: "Tribunais Superiores",
+    description: "Atuação nos Tribunais Superiores, com elaboração de defesas técnicas, recursos estratégicos e realização de sustentação oral."
+  },
+  {
+    icon: Users2,
+    title: "Defesa Criminal",
+    description: "Defesa técnica especializada em crimes contra a vida, patrimônio e demais delitos penais."
   },
   {
     icon: Briefcase,
-    title: "Employment Law",
-    description: "Protecting rights and resolving workplace disputes effectively."
+    title: "Habeas Corpus",
+    description: "Impetração de Habeas Corpus para garantir a liberdade e direitos fundamentais do acusado."
   },
   {
-    icon: Scale,
-    title: "Civil Litigation",
-    description: "Aggressive representation in complex civil disputes and trials."
+    icon: Home,
+    title: "Revisão Criminal",
+    description: "Ações de revisão criminal para rever decisões judiciais e buscar a justiça."
   }
 ];
 
@@ -39,10 +39,10 @@ const PracticeAreas = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-6">
-            Areas of Practice
+            Nossos Serviços
           </h2>
           <p className="text-lg text-muted-foreground">
-            Comprehensive legal services across multiple practice areas, delivered with expertise and dedication.
+            Serviços jurídicos especializados em defesa criminal, com atuação estratégica e dedicada à proteção dos seus direitos.
           </p>
         </div>
 

@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center gap-2">
             <Scale className="h-8 w-8 text-accent" />
-            <span className="text-xl font-semibold text-primary">Law Firm</span>
+            <span className="text-xl font-semibold text-primary">Andreza Amador</span>
           </div>
           
           <div className="hidden md:flex items-center gap-8">
@@ -21,28 +21,28 @@ const Navbar = () => {
               onClick={() => scrollToSection("about")}
               className="text-foreground hover:text-accent transition-colors"
             >
-              About
+              Sobre
             </button>
             <button
               onClick={() => scrollToSection("practice-areas")}
               className="text-foreground hover:text-accent transition-colors"
             >
-              Practice Areas
+              Serviços
             </button>
             <button
               onClick={() => scrollToSection("why-choose-us")}
               className="text-foreground hover:text-accent transition-colors"
             >
-              Why Choose Us
+              Diferenciais
             </button>
             <button
               onClick={() => scrollToSection("contact")}
               className="text-foreground hover:text-accent transition-colors"
             >
-              Contact
+              Contato
             </button>
             <Button onClick={() => scrollToSection("contact")} size="sm">
-              Free Consultation
+              Consulta Gratuita
             </Button>
           </div>
         </div>
